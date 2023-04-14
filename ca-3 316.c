@@ -25,7 +25,7 @@ int main() {
     printf("*********** Welcome to First-Fit Memory Management Algorithm **********");
     int n, m; // intializing n and m
     printf("\nEnter the number of processes: ");
-    scanf("%d\n", &n); // Taking user input for no.of processes user want to add
+    scanf("%d", &n); // Taking user input for no.of processes user want to add
     int process_size[n]; // intitalizing process_size array with length n
 
     // Taking user input of process sizes with n iterations
@@ -35,7 +35,7 @@ int main() {
     }
 
     printf("\n\nEnter the number of blocks: ");
-    scanf("%d\n", &m); // Taking input for no.of blocks user want to add
+    scanf("%d", &m); // Taking input for no.of blocks user want to add
     int block_size[m];  // intitalizing block_size array with length m
 
      // Taking user input of block sizes with m iterations
