@@ -12,10 +12,13 @@ This program implements the <font color="red">'First fit'</font> memory manageme
 
 
 The main function initializes arrays, inputs values from users, executes the first fit algorithm, and calls several functions to display blocks allocated, wasted blocks, allocated memory size, remaining memory, and fragmentation. <br>
+<hr>
+1.The firstFit() function implements the algorithm by taking the size of each process and finding the first block that can accommodate it.<br>
 
-
-1.The firstFit() function implements the algorithm by taking the size of each process and finding the first block that can accommodate it.<br> 
 2.The display_Allocation_Table() function displays a table of each process, its size, and the block it allocated or marked as not allocated. <br>
+
 3.The display_Allocated_Blocks() function counts the number of blocks that have been allocated, while calculate_Wasted_Blocks() counts unused blocks. <br>
+
 4.The displayRemainingMemory() function displays the remaining memory for each block.<br>
+
 5.The program uses calculate_Fragmentation() to calculate the total fragmentation of the memory blocks, and calculate_Average_of_Fragmentation() to calculate the average fragmentation per process.<br>
