@@ -1,6 +1,9 @@
 # Operating-system
+## Memory Management
 This program is to impliment first-fit simulation of a memory management<br>
-# outputs of this program
+# About First - Fit Alogorithm<hr>
+First fit is a memory management algorithm used by operating systems to allocate memory to processes. It works by searching the available memory blocks from the beginning and allocating the first block that is big enough to fit the process size. Once the block is allocated, its size is reduced by the size of the process, and the remaining part of the block is marked as unusable. The algorithm continues to search for subsequent processes in the remaining available memory blocks until all processes are allocated. The first fit algorithm can result in memory fragmentation, where small usable holes of memory exist, but cannot be used because a process requires a larger block to fit.<br>
+## outputs of this program
 1.Number of blocks allocated<br>
 2.Number of blocks wasted<br>
 3.Total memory allocated to the blocks<br>
