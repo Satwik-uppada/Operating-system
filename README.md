@@ -8,7 +8,7 @@ This program is to impliment first-fit simulation of a memory management<br>
 5.Total Fragmentation<br>
 6.Average Fragmentation<br>
 # Description<hr><br>
-<p color='red'>This program implements the 'First fit' memory management algorithm to allocate memory blocks to processes. The user inputs the number and size of processes and the number and size of memory blocks. The program then executes the first fit algorithm and displays the allocation table, allocated and unused blocks, allocated memory size, remaining memory for each block, total fragmentation, and average fragmentation.</p> <br>
+<p fontcolor='red'>This program implements the 'First fit' memory management algorithm to allocate memory blocks to processes. The user inputs the number and size of processes and the number and size of memory blocks. The program then executes the first fit algorithm and displays the allocation table, allocated and unused blocks, allocated memory size, remaining memory for each block, total fragmentation, and average fragmentation.</p> <br>
 
 
 The main function initializes arrays, inputs values from users, executes the first fit algorithm, and calls several functions to display blocks allocated, wasted blocks, allocated memory size, remaining memory, and fragmentation. <br>
